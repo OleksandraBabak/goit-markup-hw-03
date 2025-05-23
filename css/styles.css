@@ -8,8 +8,33 @@ body {
   letter-spacing: 0.02em;
 }
 
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img {
+  display: block;
+}
+
 ul {
   list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 .logo {
@@ -75,6 +100,8 @@ header {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-top: 188px;
+  margin-bottom: 48px;
 }
 
 .hero .button {
@@ -85,6 +112,10 @@ header {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 188px;
+  padding: 16px 32px;
 }
 
 .hero .button:hover {
@@ -124,8 +155,21 @@ header {
   color: #434455;
 }
 
+.advantages-list {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
 .team {
   background-color: #f4f4fd;
+}
+
+.team-card {
+  background-color: #fff;
+}
+
+.team-list {
+  margin-bottom: 120px;
 }
 
 .team .section-title {
@@ -136,6 +180,7 @@ header {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+  margin-top: 120px;
 }
 
 .portfolio .section-title {
@@ -146,10 +191,11 @@ header {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+  margin-top: 120px;
 }
 
-.team-card {
-  background-color: #fff;
+.portfolio-list {
+  margin-bottom: 120px;
 }
 
 .footer {
@@ -170,6 +216,8 @@ header {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+  margin-top: 100px;
+  margin-bottom: 16px;
 }
 
 .footer .footer-logo {
@@ -178,4 +226,5 @@ header {
 
 .text-footer {
   letter-spacing: 0.02em;
+  margin-bottom: 100px;
 }
