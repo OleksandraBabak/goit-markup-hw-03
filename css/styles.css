@@ -194,7 +194,7 @@ header {
 
 .text {
   color: #434455;
-  box-sizing: border-box;
+  block-size: border-box;
 }
 
 .visually-hiden {
@@ -227,10 +227,21 @@ header {
 
 .team-card {
   background-color: #fff;
+  width: calc((100% -72px) / 4);
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: var(--white);
+}
+
+.team-box {
+  padding: 32px 16px;
 }
 
 .team-list {
   padding-bottom: 120px;
+  display: flex;
+  gap: 24px;
 }
 
 .team .section-title {
@@ -263,6 +274,21 @@ header {
 
 .portfolio-list {
   padding-bottom: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.portfolio-list-item {
+  width: calc((100% -96px) / 6);
+}
+
+.portfolio-box {
+  padding: 32px 16px;
+  border-right: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
 }
 
 .footer {
@@ -285,6 +311,7 @@ header {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+  margin-bottom: 16px;
 }
 
 .footer .footer-logo {
@@ -293,5 +320,6 @@ header {
 
 .text-footer {
   letter-spacing: 0.02em;
-  margin-top: 16px;
+  min-width: 264px;
+  margin: 0 auto;
 }
