@@ -105,13 +105,13 @@ header {
 .contacts {
   font-style: normal;
   margin-left: auto;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .contacts-address {
   display: flex;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .contacts .link-contacts {
@@ -213,9 +213,12 @@ header {
   overflow: hidden;
 }
 
-.advantages-list {
+.advantages {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.advantages-list {
   display: flex;
   gap: 24px;
 }
@@ -226,6 +229,8 @@ header {
 
 .team {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .team-card {
@@ -239,13 +244,13 @@ header {
 
 .team-box {
   padding: 32px 0 32px;
+  text-align: center;
 }
 
 .team-list {
   display: flex;
   align-items: center;
   gap: 24px;
-  padding-bottom: 120px;
 }
 
 .team .section-title {
@@ -256,11 +261,6 @@ header {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-}
-
-.section-title {
-  padding-top: 120px;
-  align-items: center;
 }
 
 .portfolio {
@@ -282,6 +282,7 @@ header {
   min-width: 162px;
   margin: 0 auto;
   margin-bottom: 72px;
+  text-align: center;
 }
 
 .portfolio-list {
