@@ -87,6 +87,12 @@ header {
   text-decoration: none;
 }
 
+.link-nav {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
 .site-nav .link-nav:hover {
   color: #404bbf;
 }
@@ -95,7 +101,7 @@ header {
   color: #404bbf;
 }
 
-.link-nav {
+.link-contacts {
   color: #434455;
   font-weight: 400;
   font-size: 16px;
@@ -105,8 +111,6 @@ header {
 .contacts {
   font-style: normal;
   margin-left: auto;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .contacts-address {
@@ -312,6 +316,7 @@ header {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .footer .logo {
@@ -331,7 +336,5 @@ header {
 }
 
 .text-footer {
-  letter-spacing: 0.02em;
-  min-width: 264px;
-  margin: 0 auto;
+  max-width: 264px;
 }
