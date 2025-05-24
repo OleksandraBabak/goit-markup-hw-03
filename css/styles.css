@@ -91,6 +91,8 @@ header {
 
 .hero {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .hero .page-title {
@@ -100,7 +102,11 @@ header {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  margin-top: 188px;
+}
+
+.page-title {
+  max-width: 496px;
+  margin: 0 auto;
   margin-bottom: 48px;
 }
 
@@ -112,10 +118,14 @@ header {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+}
+
+.button {
   display: block;
   margin: 0 auto;
-  margin-bottom: 188px;
+  border: none;
   padding: 16px 32px;
+  border-radius: 4px;
 }
 
 .hero .button:hover {
@@ -149,10 +159,19 @@ header {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+
+.section-title {
+  min-width: 162px;
+  margin: 0 auto;
+  padding-top: 120px;
+  margin-bottom: 72px;
 }
 
 .text {
   color: #434455;
+  box-sizing: border-box;
 }
 
 .advantages-list {
@@ -169,7 +188,7 @@ header {
 }
 
 .team-list {
-  margin-bottom: 120px;
+  padding-bottom: 120px;
 }
 
 .team .section-title {
@@ -180,7 +199,7 @@ header {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  margin-top: 120px;
+  padding-top: 120px;
 }
 
 .portfolio .section-title {
@@ -191,15 +210,23 @@ header {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  margin-top: 120px;
+}
+
+.section-title {
+  padding-top: 120px;
+  min-width: 162px;
+  margin: 0 auto;
+  margin-bottom: 72px;
 }
 
 .portfolio-list {
-  margin-bottom: 120px;
+  padding-bottom: 120px;
 }
 
 .footer {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .footer .text-footer {
   color: #f4f4fd;
@@ -216,8 +243,6 @@ header {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-  margin-top: 100px;
-  margin-bottom: 16px;
 }
 
 .footer .footer-logo {
@@ -226,5 +251,5 @@ header {
 
 .text-footer {
   letter-spacing: 0.02em;
-  margin-bottom: 100px;
+  margin-top: 16px;
 }
