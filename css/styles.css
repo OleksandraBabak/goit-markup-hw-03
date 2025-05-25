@@ -46,7 +46,6 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-  margin-right: 76px;
 }
 
 .logo span {
@@ -59,8 +58,14 @@ ul {
 }
 
 header {
-  background: #fff;
   border-bottom: 1px solid #e7e9fc;
+}
+
+.header .logo {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-right: 76px;
 }
 
 .header-container {
@@ -106,6 +111,9 @@ header {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .contacts {
@@ -192,13 +200,6 @@ header {
   margin-bottom: 8px;
 }
 
-.section-title {
-  min-width: 162px;
-  margin: 0 auto;
-  padding-top: 120px;
-  margin-bottom: 72px;
-}
-
 .text {
   color: #434455;
   block-size: border-box;
@@ -256,7 +257,7 @@ header {
   gap: 24px;
 }
 
-.team .section-title {
+.section-title {
   color: #2e2f42;
   font-weight: 700;
   font-size: 36px;
@@ -264,6 +265,7 @@ header {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .portfolio {
@@ -279,13 +281,6 @@ header {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-}
-
-.section-title {
-  min-width: 162px;
-  margin: 0 auto;
-  margin-bottom: 72px;
-  text-align: center;
 }
 
 .portfolio-list {
@@ -320,13 +315,6 @@ header {
 }
 
 .footer .logo {
-  color: #4d5ae5;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  text-decoration: none;
   margin-bottom: 16px;
   display: inline-block;
 }
